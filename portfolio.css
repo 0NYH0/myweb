@@ -1,0 +1,96 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Sans-serif;
+	padding: 10px;
+	background: #D1D1D1;
+}
+
+
+.header {
+	background-color: #1E1E1E;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.header h1 {
+	font-size: 50px;
+	color : #EFEFEF;
+}
+
+
+
+
+
+
+ul {
+	overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1E1E;
+}
+
+li a {
+	float: left;
+    display: block;
+    color: #EFEFEF;
+	text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #5cb860;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    
+    color: #5cb860;
+}
+
+
+
+#C9D9E3
+
+
+
+
+.leftcolumn {
+	float: middle;
+	width: 100%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #EFEFEF;
+    padding: 20px;
+    margin-top: 20px;:
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
